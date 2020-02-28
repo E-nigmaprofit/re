@@ -1,0 +1,96 @@
+.counter__num {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.counter__num_text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px
+}
+
+.counter__num_item {
+    display: inline-block;
+    width: 59px;
+    height: 60px;
+}
+
+.counter__hour,
+.counter__min,
+.counter__sec {
+    font: 700 30px/40px 'Open Sans', sans-serif;
+    color: #282828;
+    vertical-align: middle;
+    display: inline-block;
+    width: 59px;
+    height: 42px;
+    margin: 0 7px;
+    background: #e1e1e1;
+    border-radius: 5px;
+    position: relative;
+}
+
+.counter__hour:after,
+.counter__min:after{
+    position: absolute;
+    content: ":";
+    top: 0px;
+    right: -11px;
+    font: 700 30px/40px 'Open Sans', sans-serif;
+    color: #282828;
+}
+
+.header__counter {
+    position: relative
+}
+
+.header__counter.text-bottom {
+    font: 14px/16px 'Open Sans', sans-serif;
+    color: #000;
+    top: -30px;
+}
+
+.buy .counter__hour,
+.buy .counter__min,
+.buy .counter__sec {
+    color: #c20019;
+    background: #fff
+}
+
+.buy .counter__hour:after,
+.buy .counter__min:after{
+    color: #fff;
+}
+
+.buy .header__counter.text-bottom {
+    color: #fff;
+}
+
+@media (max-width: 601px){
+
+    .buy .counter__num_item {
+        display: inline-block;
+        width: 70px;
+        height: 50px;
+    }
+    .buy .counter__hour,
+    .buy .counter__min,
+    .buy .counter__sec {
+        color: #c20019;
+        background: #fff;
+        width: 70px;
+        height: 50px;
+        margin: 0 9px;
+        font: 700 35px/50px 'Open Sans', sans-serif;
+    }
+
+    .buy .counter__hour:after,
+    .buy .counter__min:after{
+        color: #fff;
+    }
+
+    .buy .header__counter.text-bottom {
+        color: #fff;
+        top: -10px;
+    }
+}

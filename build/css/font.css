@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'GothamPro';
+    src: url('../fonts/GothamPro.eot');
+    src: url('../fonts/GothamPro.eot') format('embedded-opentype'),
+        url('../fonts/GothamPro.woff') format('woff'),
+        url('../fonts/GothamPro.ttf') format('truetype'),
+        url('../fonts/GothamPro.svg#GothamPro') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamProMedium';
+    src: url('../fonts/GothamProMedium.eot');
+    src: url('../fonts/GothamProMedium.eot') format('embedded-opentype'),
+        url('../fonts/GothamProMedium.woff') format('woff'),
+        url('../fonts/GothamProMedium.ttf') format('truetype'),
+        url('../fonts/GothamProMedium.svg#GothamProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamPro-Bold';
+    src: url('../fonts/GothamPro-Bold.eot');
+    src: url('../fonts/GothamPro-Bold.eot') format('embedded-opentype'),
+        url('../fonts/GothamPro-Bold.woff') format('woff'),
+        url('../fonts/GothamPro-Bold.ttf') format('truetype'),
+        url('../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamProBlack';
+    src: url('../fonts/GothamProBlack.eot');
+    src: url('../fonts/GothamProBlack.eot') format('embedded-opentype'),
+        url('../fonts/GothamProBlack.woff') format('woff'),
+        url('../fonts/GothamProBlack.ttf') format('truetype'),
+        url('../fonts/GothamProBlack.svg#GothamProBlack') format('svg');
+}
